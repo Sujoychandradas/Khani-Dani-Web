@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Signin Page</title>
+  <link rel="stylesheet" href="style.css">
+  
+</head>
+<body>
+  <div class="siging-box">
+    <h1>Sign In</h1>
+    <form form id="form" class="form"  method="get" action="index.html" onsubmit="return form()">
+      <label for="email">Email</label>
+      <input type="email" id="email" name="email" required>
+      <span id="femail"></span>
+      <label for="password">Password</label>
+      <input type="password" id="password" name="password" required>
+      <span></span>
+     
+
+      <input type="submit" value="Sign In">
+      <p class="already-signed-in">Already signed in? <a href="signup.html">Signup here.</a></p>
+      
+    </form>
+  </div>
+  <script src="regex.js"></script>
+</body>
+</html>
